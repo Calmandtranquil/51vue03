@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!--<router-link to="/">Home</router-link> |-->
+      <!--<router-link to="/about">About</router-link>-->
+      <h1>问卷调查表填写</h1>
+      <router-link to="/"></router-link>
     </div>
     <router-view/>
   </div>
@@ -15,18 +17,17 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: lemonchiffon;
+  width: 40%;
+  margin: 0px auto;
+
+
 }
 
 #nav {
   padding: 30px;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  h1{
+    color: #42b983;
+  }
 </style>
